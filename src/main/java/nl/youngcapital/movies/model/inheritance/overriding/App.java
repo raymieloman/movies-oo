@@ -1,4 +1,4 @@
-package nl.youngcapital.movies.overriding;
+package nl.youngcapital.movies.model.inheritance.overriding;
 
 public class App {
 

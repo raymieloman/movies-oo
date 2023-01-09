@@ -8,7 +8,7 @@ public class App {
         Person p = new Person("Raymond");
 
         System.out.println(p.getName());
-        p.setName("");
+        p.setName(""); // will fails since I tweaked the setter to ignore blank strings
 
         System.out.println(p.getName());
 

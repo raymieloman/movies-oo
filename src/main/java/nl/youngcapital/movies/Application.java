@@ -1,6 +1,7 @@
-package nl.youngcapital.movies.model;
+package nl.youngcapital.movies;
 
 import nl.youngcapital.movies.labels.Constants;
+import nl.youngcapital.movies.model.Movie;
 import nl.youngcapital.movies.model.inheritance.Actor;
 
 public class Application {
@@ -41,6 +42,5 @@ public class Application {
 
         final String name = "Raymond";
 //        name = "Poedel";// vout
-
     }
 }
