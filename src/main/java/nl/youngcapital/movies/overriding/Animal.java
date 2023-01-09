@@ -1,8 +1,6 @@
 package nl.youngcapital.movies.overriding;
 
-public class Animal {
+public abstract class Animal {
 
-    public void sound() {
-        System.out.println("Animal making sound");
-    }
+    public abstract void sound();
 }

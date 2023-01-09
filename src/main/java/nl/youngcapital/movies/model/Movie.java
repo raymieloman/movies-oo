@@ -3,10 +3,14 @@ package nl.youngcapital.movies.model;
 /* zonder public of iets anders is package private oftewel indezelfde folder */
 public class Movie {
 
+    public static String customerName = "Netflix";
+
     // Encapsulation
     private String name;
     private int length;
     private int stars;
+
+    public static int movieCounter = 0;
 
     /*
     Java heeft 8 primitives: the element of the periodic system
@@ -31,6 +35,7 @@ public class Movie {
     // new and constructor is a marriage
     public Movie(String name) {
         this.name = name;
+        movieCounter++;
     }
 
     public String getName() {

@@ -3,7 +3,7 @@ package nl.youngcapital.movies.overriding;
 public class App {
 
     public static void main(String[] args) {
-        Animal a = new Animal();
+        Animal a = new Cow();
         a.sound();
 
         Animal b = new Bear();
@@ -11,6 +11,9 @@ public class App {
 
         Animal c = new Cow();
         c.sound();
+
+        Animal d = new Dog();
+        d.sound();
 
     }
 }
